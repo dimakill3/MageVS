@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04a647bece5df7448394709537a9d16, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  StartLevelScene: MainScene
+  HeroConfig: {fileID: 11400000, guid: af0d9d2800d19fc47b147cbc83cd1c0f, type: 2}
+  SpawnConfig: {fileID: 11400000, guid: 829e8d56510cdc949b00fb946d142226, type: 2}
+  EnemyConfigs:
+  - {fileID: 11400000, guid: 2fc916d82f287d445bf7134213ca5995, type: 2}
+  - {fileID: 11400000, guid: 780a7779cc122a348a8c95f1059170a5, type: 2}
+  - {fileID: 11400000, guid: 27a0280d0f90b09468243c50ad91e60c, type: 2}
+  - {fileID: 11400000, guid: 9c2afba0f98c7f34c8b7c19e57dfe9c4, type: 2}
+  SpellConfigs:
+  - {fileID: 11400000, guid: 4877d2e27cb292447ac9b161645a3a20, type: 2}
+  - {fileID: 11400000, guid: 5a15aed954d0fde49a8204a0d9813d30, type: 2}
+  InputConfig: {fileID: 11400000, guid: 85bf7e03c84f82840900d4139bfdab50, type: 2}
+  MapSize: {x: 64, y: 64}

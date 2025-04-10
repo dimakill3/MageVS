@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76030a2a1bf428381e5712c92045bca, type: 3}
+  m_Name: Skeleton
+  m_EditorClassIdentifier: 
+  EnemyType: 0
+  MaxHealth: 5
+  Defense: 0
+  Damage: 300
+  MoveSpeed: 3
+  DistanceToAttack: 0.2
+  AddressableId:
+    m_AssetGUID: 34dff522890f9e347b2613fd870ff0c2
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

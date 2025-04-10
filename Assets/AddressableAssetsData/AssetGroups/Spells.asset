@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Spells
+  m_EditorClassIdentifier: 
+  m_GroupName: Spells
+  m_GUID: c5ff673458fade442accbd0c013da53e
+  m_SerializeEntries:
+  - m_GUID: 0a0941426fccbac42aa4688fe057241f
+    m_Address: Fireboll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51ccf85d99b686244bebd4f6329726ae
+    m_Address: Plsama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f88972c975b7008499e383938ae9228b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9b16e2915ffef3b4da171b1886fea983, type: 2}
+    - {fileID: 11400000, guid: dff3e7adefbb8f945b09b0107faf6e2f, type: 2}
