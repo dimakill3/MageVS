@@ -15,7 +15,7 @@ MonoBehaviour:
   EnemyType: 1
   MaxHealth: 5
   Defense: 0
-  Damage: 300
+  Damage: 5
   MoveSpeed: 5
   DistanceToAttack: 0.2
   AddressableId:

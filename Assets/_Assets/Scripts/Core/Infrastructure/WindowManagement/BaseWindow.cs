@@ -14,7 +14,7 @@ namespace _Assets.Scripts.Core.Infrastructure.WindowManagement
 
         [SerializeField] private AnimationClip showAnimation;
         [SerializeField] private AnimationClip hideAnimation;
-        [SerializeField] private Animation animationComponent;
+        [SerializeField] private Animator animator;
         [SerializeField] protected List<Button> closeButtons;
 
         private bool _isShowed;
@@ -77,11 +77,18 @@ namespace _Assets.Scripts.Core.Infrastructure.WindowManagement
 
         private async UniTask PlayAnimation(AnimationClip animationClip, Action action = null)
         {
-            animationComponent.Play(animationClip.name, PlayMode.StopAll);
+            animator.Play(animationClip.name);
             await UniTask.WaitForEndOfFrame();
 
-            while (animationComponent.IsPlaying(animationClip.name))
-                await UniTask.WaitForEndOfFrame();
+            while (true)
+            {
+                var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+                if (stateInfo.IsName(animationClip.name) && stateInfo.normalizedTime < 1f)
+                    await UniTask.WaitForEndOfFrame();
+                else
+                    break;
+            }
             
             action?.Invoke();
         }
